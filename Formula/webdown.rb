@@ -10,23 +10,23 @@ class Webdown < Formula
   depends_on "python@3.10"
 
   resource "beautifulsoup4" do
-    url "https://files.pythonhosted.org/packages/b3/ca/824b1195773ce6166d388573fc106ce56d4a805bd7427b624e063596ec58/beautifulsoup4-4.13.0.tar.gz"
-    sha256 "5d292d2cca107a33efec4af80c3da3db9d9f7c7b179aacd5a5a856730ddd9acc"
+    url "https://files.pythonhosted.org/packages/af/0b/44c39cf3b18a9280950ad63a579ce395dda4c32193ee9da7ff0aed547094/beautifulsoup4-4.13.3.tar.gz"
+    sha256 "1bd32405dacc920b42b83ba01644747ed77456a65760e285fbc47633ceddaf8b"
   end
 
   resource "html2text" do
-    url "https://files.pythonhosted.org/packages/6c/f9/033a17d8ea8181aee41f20c74c3b20f1ccbefbbc3f7cd24e3692de99fb25/html2text-2020.1.16.tar.gz"
-    sha256 "e296318e16b059ddb97f7a8a1d6a5c1d7af4544049a01e261731d2d5cc277bbb"
+    url "https://files.pythonhosted.org/packages/1e/8e/86f964b76486a79bc659eb2a151b485c80a6cb5c11df538d2fa24d0c46f7/html2text-2024.2.26.tar.gz"
+    sha256 "05f8e367d15aaabc96415376776cdd11afd5127a77fce6e36afc60c563ca2c32"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz"
-    sha256 "942c5a758f98d790eaed1a29cb6eefc7ffb0d1cf7af05c3d2791656dbd6ad1e1"
+    url "https://files.pythonhosted.org/packages/9f/34/6d5a76ee47f3ce69be59c9eb339418fe2846c6e87c5510866004367f8c63/requests-2.32.3.tar.gz"
+    sha256 "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
   end
 
   resource "tqdm" do
-    url "https://files.pythonhosted.org/packages/ea/85/3ce0f9f7d3f596e7ea57f4e5ce8c18cb44e4a9daa58ddb46ee0d13d6e6f1/tqdm-4.66.2.tar.gz"
-    sha256 "6cd52cdf377a5c18e5e9d2dca79e2a47e8f5188aa2c13828a45f371404cbe944"
+    url "https://files.pythonhosted.org/packages/5c/97/80bbb350ba028f8749be522f6a3d8a8bb25953be1ece1efec9b723c3a888/tqdm-4.67.1.tar.gz"
+    sha256 "f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2"
   end
 
   resource "soupsieve" do
