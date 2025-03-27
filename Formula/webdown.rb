@@ -7,7 +7,13 @@ class Webdown < Formula
   sha256 "9b11b36ebc19ea160b7418f4102483085bd4d092f8e3e99332872b6511a1e72b"
   license "MIT"
 
-  depends_on "python@3.10"
+  depends_on "python@3.10" => :recommended
+  depends_on "python@3.11" => :optional
+  depends_on "python@3.12" => :optional
+  depends_on "python@3.13" => :optional
+  
+  # Make sure we have a Python 3.10+ available
+  depends_on "python"
 
   resource "beautifulsoup4" do
     url "https://files.pythonhosted.org/packages/af/0b/44c39cf3b18a9280950ad63a579ce395dda4c32193ee9da7ff0aed547094/beautifulsoup4-4.13.3.tar.gz"
