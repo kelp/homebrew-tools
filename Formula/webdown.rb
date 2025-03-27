@@ -7,10 +7,10 @@ class Webdown < Formula
   sha256 "9b11b36ebc19ea160b7418f4102483085bd4d092f8e3e99332872b6511a1e72b"
   license "MIT"
 
-  depends_on "python@3.10"
+  depends_on "python@3.13"
 
   def install
-    virtualenv_create(libexec, "python3.10")
+    virtualenv_create(libexec, "python3.13")
     system libexec/"bin/pip", "install", "webdown==0.6.3"
     bin.install_symlink libexec/"bin/webdown"
   end
