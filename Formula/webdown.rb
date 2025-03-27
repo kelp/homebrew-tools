@@ -9,14 +9,29 @@ class Webdown < Formula
 
   depends_on "python@3.13"
 
-  depends_on "python-certifi"
-  depends_on "python-charset-normalizer"
-  depends_on "python-idna"
-  depends_on "python-urllib3"
-
   resource "beautifulsoup4" do
     url "https://files.pythonhosted.org/packages/06/85/ab8a1dd7abd7e9e53fae56ff5ce7ff5286c515712fdff0b87a65ce3fa74d/beautifulsoup4-4.13.3-py3-none-any.whl"
     sha256 "492bbc69dca35d12daac71c4db1bfff0c876c00ef4a2ffacce226d4638eb72da"
+  end
+  
+  resource "certifi" do
+    url "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl"
+    sha256 "dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
+  end
+
+  resource "charset-normalizer" do
+    url "https://files.pythonhosted.org/packages/b9/80/3521e1676688ea078bab57f056e65fb4d61decdd3bcf528349f8e48c51d0/charset_normalizer-3.3.2-py3-none-any.whl"
+    sha256 "673d68f9a23b977fea237ffb2c2bffb16e40a8b30534b59196bf2b6d8437b9f1"
+  end
+  
+  resource "idna" do
+    url "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl"
+    sha256 "c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"
+  end
+  
+  resource "urllib3" do
+    url "https://files.pythonhosted.org/packages/96/94/c31f58c7a7f470d5665935551c5784759388775c1610b04024f4580b5ac1/urllib3-1.26.18-py2.py3-none-any.whl"
+    sha256 "34b97092d7e0a3a8cf7cd10e386f401b3737364026c45e622aa02903dffe0f07"
   end
 
   resource "html2text" do
