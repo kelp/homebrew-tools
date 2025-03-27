@@ -57,7 +57,7 @@ class Webdown < Formula
   # Add typing-extensions dependency required by beautifulsoup4
   resource "typing-extensions" do
     url "https://pypi.org/packages/source/t/typing-extensions/typing_extensions-4.13.0.tar.gz"
-    sha256 "b0abd7c89e8fb96f98db96d2e9a392a657e9ed6b38a70031375c9f9ba33c7df2"
+    sha256 "0a4ac55a5820789d87e297727d229866c9650f6521b64206413c4fbada24d95b"
   end
 
   def install
