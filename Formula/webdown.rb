@@ -10,53 +10,53 @@ class Webdown < Formula
   depends_on "python"
 
   resource "beautifulsoup4" do
-    url "https://files.pythonhosted.org/packages/06/85/ab8a1dd7abd7e9e53fae56ff5ce7ff5286c515712fdff0b87a65ce3fa74d/beautifulsoup4-4.13.3-py3-none-any.whl"
-    sha256 "99045d7d3f08f91f0d656bc9b7efbae189426cd913d830294a15eefa0ea4df16"
+    url "https://files.pythonhosted.org/packages/source/b/beautifulsoup4/beautifulsoup4-4.13.3.tar.gz"
+    sha256 "1bd32405dacc920b42b83ba01644747ed77456a65760e285fbc47633ceddaf8b"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl"
-    sha256 "dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"
+    url "https://files.pythonhosted.org/packages/source/c/certifi/certifi-2024.2.2.tar.gz"
+    sha256 "0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/63/09/c1bc53dab74b1816a00d8d030de5bf98f724c52c1635e07681d312f20be8/charset_normalizer-3.3.2-py3-none-any.whl"
-    sha256 "3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc"
+    url "https://files.pythonhosted.org/packages/source/c/charset-normalizer/charset-normalizer-3.3.2.tar.gz"
+    sha256 "f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5"
   end
 
   resource "html2text" do
-    url "https://files.pythonhosted.org/packages/e1/4e/5a3d8e2867e1b79430c61113e84afbc09c1ad0aaa63fb8a6115a1be9f3ba/html2text-2024.2.26.tar.gz"
+    url "https://files.pythonhosted.org/packages/source/h/html2text/html2text-2024.2.26.tar.gz"
     sha256 "05f8e367d15aaabc96415376776cdd11afd5127a77fce6e36afc60c563ca2c32"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl"
-    sha256 "c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"
+    url "https://files.pythonhosted.org/packages/source/i/idna/idna-3.6.tar.gz"
+    sha256 "9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/70/8e/0e2d742e3b8d4d9c5baaa804ca36b39791853aa5f069dad4de9622b80e4d/requests-2.32.3-py3-none-any.whl"
-    sha256 "70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"
+    url "https://files.pythonhosted.org/packages/source/r/requests/requests-2.32.3.tar.gz"
+    sha256 "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
   end
 
   resource "soupsieve" do
-    url "https://files.pythonhosted.org/packages/4c/f3/038b302fdfbe3be7da016777069f26ceefe11a681055ea1f7817546508e3/soupsieve-2.5-py3-none-any.whl"
-    sha256 "eaa337ff55a1579b6549dc679565eac1e3d000563bcb1c8ab0d0fefbc0c2cdc5"
+    url "https://files.pythonhosted.org/packages/source/s/soupsieve/soupsieve-2.5.tar.gz"
+    sha256 "5663d5a7b3bfaeee0bc4372e7fc48f9cff4940b3eec54a6451cc5299f1097690"
   end
 
   resource "tqdm" do
-    url "https://files.pythonhosted.org/packages/ch/25/1eb483582ce41eac7223704ec9f1ef5e1fbdff932ba9611aab0413686bee/tqdm-4.67.1-py3-none-any.whl"
-    sha256 "26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2"
+    url "https://files.pythonhosted.org/packages/source/t/tqdm/tqdm-4.67.1.tar.gz"
+    sha256 "f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/c7/d0/f9f295461e7a534b7d526bd102ac2ff247adad291e1d1b3fbbdd268d9a27/typing_extensions-4.13.0-py3-none-any.whl"
-    sha256 "c8dd92cc0d6425a97c18fbb9d1954e5ff92c1ca881a309c45f06ebc0b79058e5"
+    url "https://files.pythonhosted.org/packages/source/t/typing-extensions/typing_extensions-4.13.0.tar.gz"
+    sha256 "0a4ac55a5820789d87e297727d229866c9650f6521b64206413c4fbada24d95b"
   end
 
   resource "urllib3" do
-    url "https://files.pythonhosted.org/packages/96/94/c31f58c7a7f470d5665935551c5784759388775c1610b04024f4580b5ac1/urllib3-1.26.18-py2.py3-none-any.whl"
-    sha256 "34b97092d7e0a3a8cf7cd10e386f401b3737364026c45e622aa02903dffe0f07"
+    url "https://files.pythonhosted.org/packages/source/u/urllib3/urllib3-1.26.18.tar.gz"
+    sha256 "f8ecc1bba5667413457c529ab955bf8c67b45db799d159066261719e328580a0"
   end
 
   def install
