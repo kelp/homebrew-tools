@@ -7,13 +7,13 @@ class Webdown < Formula
   sha256 "9b11b36ebc19ea160b7418f4102483085bd4d092f8e3e99332872b6511a1e72b"
   license "MIT"
 
-  depends_on "python@3.13"
+  depends_on "python"
 
   def install
     virtualenv_install_with_resources
   end
 
   test do
-    system "#{bin}/webdown", "--version"
+    system bin/"webdown", "--version"
   end
 end
