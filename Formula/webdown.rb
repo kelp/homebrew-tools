@@ -10,18 +10,7 @@ class Webdown < Formula
   depends_on "python@3.13"
 
   def install
-    # Create a virtualenv with Python 3
-    venv = virtualenv_create(libexec, "python3.13")
-    
-    # Install with pip directly
-    system libexec/"bin/pip", "install", "--verbose", "--no-deps", "--no-binary", ":all:", 
-           "--ignore-installed", buildpath
-    
-    # Install all dependencies
-    system libexec/"bin/pip", "install", "beautifulsoup4", "html2text", "requests", "tqdm"
-    
-    # Create the symlink to the binary
-    bin.install_symlink libexec/"bin/webdown"
+    virtualenv_install_with_resources
   end
 
   test do
